@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>my card2</div>
+    <div>my carsdfsdd2</div>
   )
 }
 
