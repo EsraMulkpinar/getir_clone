@@ -6,7 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-          brandColor:"#5d3ebc"
+          brandColor:"#4C3398",
+          primaryColor:"#5d3ebc",
+          secondaryColor:"#8B3EBC",
+          whitebgColor:"#FAFAFA",
+          borderColor:"#DFDEE2",
+          brandYellowColor:"#ffd300",
+          cardbgColor:"#F3F0FE",
+          textGrayColor:"#737373",
+          
       }
     },
   },

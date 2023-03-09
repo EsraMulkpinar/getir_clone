@@ -1,11 +1,12 @@
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import Categories from "./components/Categories";
-import Campaigns from "./components/Campaigns";
-import Favorites from "./components/Favorites";
-import MobileApp from "./components/MobileApp";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
+import Campaigns from "./components/section/Campaigns";
+import HeroSection from "./components/section/HeroSection";
+import Categories from "./components/section/Categories";
+import Favorites from "./components/section/Favorites";
+import MobileApp from "./components/section/MobileApp";
+import Cards from "./components/section/Cards";
+import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
+
 
 function App() {
   return (
