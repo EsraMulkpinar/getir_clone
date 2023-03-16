@@ -4,7 +4,7 @@ import PhoneCode from './PhoneCode'
 const LoginCard = () => {
   return (
     <div>
-      <div className="flex flex-col h-52 justify-around items-center bg-whitebgColor w-[400px] rounded-lg p-4 font-semibold ">
+      <div className="flex flex-col  justify-around items-center bg-whitebgColor rounded-lg space-y-6 p-4 font-semibold ">
         <div className="text-primaryColor text-base">
           Giriş yap veya kayıt ol
         </div>

@@ -14,7 +14,10 @@ module.exports = {
           brandYellowColor:"#ffd300",
           cardbgColor:"#F3F0FE",
           textGrayColor:"#737373",
-          
+          textGrayStormColor:"#697488",
+          textBlackColor:"#191919",
+          footerTextColor:"#525252",
+          textPurpleColor:"#7849f7",
       }
     },
   },

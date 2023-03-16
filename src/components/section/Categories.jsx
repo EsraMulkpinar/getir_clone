@@ -13,7 +13,7 @@ const Categories = () => {
   },[]) 
   
   return (
-    <div className="flex flex-col items-center shadow-[0_2px_2px_16px_rgba(88,63,181,0.8)] pb-10">
+    <div className="relative flex flex-col items-center before:shadow-[2px_20px_38px_-40px_rgba(88,63,181,0.8)] before:absolute before:inset-0 pb-10">
       <div className="container max-w-[1220px] ">
       <div className="ml-2 mt-6 font-semibold text-sm text-black">Kategoriler</div>
       <div className='flex flex-wrap justify-start'>

@@ -46,7 +46,10 @@ const HeroSection = () => {
             kapınızda
           </h3>
         </div>
+        
+        <div className="w-[400px]">
         <LoginCard />
+        </div>
       </div>
     </div>
   )
