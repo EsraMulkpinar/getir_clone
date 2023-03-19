@@ -2,12 +2,11 @@ import React from 'react'
 import {BsFacebook,BsTwitter,BsInstagram} from "react-icons/bs"
 import {BiGlobe} from "react-icons/bi"
 import { current } from '@reduxjs/toolkit'
-import Modal from '../common/Modal'
 
 const Footer = () => {
   return (
     <div className='container max-w-[1220px] mx-auto mt-36'>
-      <div className="flex justify-between items-start border-b-[1px] pb-3 border-cardbgColor">
+      <div className="md:flex block justify-between md:items-start border-b-[1px] pb-3 ml-5 lg:ml-0 border-cardbgColor">
         <div className="flex flex-col">
           <div className="text-lg text-primaryColor font-normal">Getir'i indirin!</div>
           <div className="flex flex-col ">
@@ -66,7 +65,7 @@ const Footer = () => {
         
       </div>
       
-     <div className="flex items-center justify-between my-7">
+     <div className="flex items-center md:justify-between flex-col md:flex-row justify-center my-7">
      <div className="flex">
       <div className="text-xs font-normal text-footerTextColor">© 2023 Getir</div>
       <div className="ml-7">
@@ -93,9 +92,10 @@ const Footer = () => {
         <BiGlobe size={20}/>
         <span className='text-sm px-1'>Türkçe (TR)</span>
         </button>
-        <Modal/>
+       
       </div>
      </div>
+     
     </div>
   )
 }

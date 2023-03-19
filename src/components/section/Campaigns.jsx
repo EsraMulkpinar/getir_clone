@@ -9,10 +9,10 @@ const Campaigns = () => {
             Kampanyalar
           </div>
           <div className="flex justify-between items-center">
-            <div className="ml-10 flex flex-col justify-around min-h-[180px] items-start">
+            <div className="ml-10 block md:flex flex-col justify-around min-h-[180px] items-start space-y-1 md:space-y-0">
               <div className="relative top-0 left-0 z-20 text-2xl font-bold text-white">Getir'i indirin!</div>
               <div className="relative top-0 left-0 z-20 text-base font-semibold max-w-sm text-white">İstediğiniz ürünleri dakikalar içinde kapınıza getirelim.</div>
-              <div className="flex space-x-2">
+              <div className="flex md:flex-row flex-col space-y-1 md:space-x-3 md:space-y-0">
                 <a href="/">
                   <img className='relative top-0 left-0 z-20' src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
                 </a>
@@ -25,12 +25,13 @@ const Campaigns = () => {
               </div>
             </div>
             <img
-              className="bg-primaryColor absolute max-w-[1220px] rounded-2xl"
+              className="bg-primaryColor absolute max-w-full min-h-[280px] rounded-2xl"
               src="https://cdn.getir.com/getirweb-images/common/illustration/doodle.png"
               alt=""
             />
             <img
-              className="relative  top-0 left-0 z-10 max-h-[259px]"
+              className="relative hidden md:flex
+                top-0 left-0 z-10 max-h-[259px] "
               src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"
               alt=""
             />

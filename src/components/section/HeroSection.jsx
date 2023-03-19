@@ -14,11 +14,23 @@ const HeroSection = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     arrows:false,
+    responsive: [
+    
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+  
+    ]
   }
 
   return (
-    <div className="relative before:bg-gradient-to-r before:from-primaryColor  before:to-transparent before:absolute before:inset-0 before:w-full before:z-10">
-      <Slider className='h-[500px] w-full' {...settings}>
+    <div className="relative md:flex hidden before:bg-gradient-to-r before:from-primaryColor  before:to-transparent before:absolute before:inset-0 before:w-full before:z-10">
+      <Slider className='h-[500px] md:w-full' {...settings}>
         <div>
           <img
             className="w-full h-[500px] object-cover"
@@ -47,9 +59,10 @@ const HeroSection = () => {
           </h3>
         </div>
         
-        <div className="w-[400px]">
+        <div className="w-[400px] ">
         <LoginCard />
         </div>
+        
       </div>
     </div>
   )

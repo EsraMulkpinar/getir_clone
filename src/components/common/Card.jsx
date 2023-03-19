@@ -9,7 +9,7 @@ const Card = ({ card }) => {
       <div className="font-semibold text-primaryColor text-lg mt-6">
         {card.title}
       </div>
-      <div className="max-w-[380px] text-center text-textGrayStormColor text-base">
+      <div className="md:max-w-[380px] text-center text-textGrayStormColor text-base">
         {card.desc}
       </div>
     </div>

@@ -24,8 +24,8 @@ const cards = [
 ]
 const Cards = () => {
   return (
-    <div className="container max-w-[1220px] mx-auto mt-36">
-      <div className="flex justify-around items-start">
+    <div className="container max-w-[1220px] mx-auto md:mt-36">
+      <div className="md:flex justify-around  items-start space-y-10 md:space-y-0">
        {cards.map((card,key) => {
          return <Card card={card} key={key}/>
        })}

@@ -6,7 +6,6 @@ import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
 import 'rodal/lib/rodal.css';
 
-
 function App() {
   return (
     <div className="App">
